@@ -1,13 +1,13 @@
 ## INSTALAR DEPENDENCIAS
-Para la correcta ejecucion del proyecto es necesario tener instalado un entorno que soporte notebooks (**Jupyterlab** o **VS Code**)
+Para la correcta ejecución del proyecto es necesario tener instalado un entorno que soporte notebooks (**Jupyterlab** o **VS Code**)
 
 **¡IMPORTANTE!**  
-Si se ejecuta desde VS Code instalar la extension "Jupyter " y el paquetede ipykernel, esto sirve para visualizar los archivos .ipynb
+Si se ejecuta desde VS Code instalar la extensión "Jupyter " y el paquete de `ipykernel`, esto sirve para visualizar los archivos .ipynb
 ```
     py -m pip install ipykernel
 ```
 
-## EJECUCION DEL PROGRAMA
+## EJECUCIÓN DEL PROGRAMA
 1. Descargar o clonar la carpeta notebooks del repositorio
 ```
     git clone https://github.com/MezaJoaq/programa_jupyter_notebook
