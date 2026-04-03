@@ -56,7 +56,9 @@ def empezar_rondas(rounds):
     for posRonda in range(len(rounds)):
         round_terminado += f"Round Nro {posRonda + 1}\n"
         posiciones = armar_posicones(posRonda,rounds)
+        #Recorro la lista recuperada de la funcion para determinar quien gano cada ronda
         for posConcursante in range(len(posiciones)):
+            #Como la lista esta ordenada puedo directamente preguntar si el concursante es el primero, si es asi,  ya se que gano
             if posConcursante == 0:
                 round_terminado += f"El ganador de la ronda es ¡{posiciones[posConcursante][0]}! puntaje:{posiciones[posConcursante][1]}\n"
             else:
