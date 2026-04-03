@@ -54,7 +54,7 @@ def empezar_rondas(rounds):
     round_terminado = f""
 
     for posRonda in range(len(rounds)):
-        round_terminado += f"Round Nro {posRonda + 1}\n"
+        round_terminado += f"Round Nro {posRonda + 1}  -  {rounds[posRonda]["theme"]}:\n"
         posiciones = armar_posicones(posRonda,rounds)
         #Recorro la lista recuperada de la funcion para determinar quien gano cada ronda
         for posConcursante in range(len(posiciones)):
